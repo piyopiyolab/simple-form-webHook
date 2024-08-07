@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
         //Timestamp
         data.timestamp = new Date().toISOString();
 
-        fetch("https://piyopiyo.app.n8n.cloud/webhook-test/9458f2ef-1679-4f81-a1b8-c3e7f69b0406", {
+        // fetch("https://piyopiyo.app.n8n.cloud/webhook-test/9458f2ef-1679-4f81-a1b8-c3e7f69b0406", {
+        fetch("https://piyopiyo.app.n8n.cloud/webhook/9458f2ef-1679-4f81-a1b8-c3e7f69b0406", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
